@@ -37,7 +37,10 @@
     "esnext": true,
     "envs": [
       "jest"
-    ]
+    ],
+    "rules": {
+      "no-cond-assign": 0
+    }
   },
   "dependencies": {
     "axios": "^0.16.1",
