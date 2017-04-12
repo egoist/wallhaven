@@ -17,6 +17,9 @@ GET /details/:id
 })
 
 function cacheMiddleWare(req, res, next) {
+  if (req.query.sorting === 'random') {
+    return next()
+  }
   let cached
   if (cached = cache.get(req.url)) {
     res.send(cached)
