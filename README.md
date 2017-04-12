@@ -51,7 +51,7 @@ Default: `1`
 #### options.sorting
 
 Type: `string`<br>
-Default: `relevance`
+Default: `relevance`<br>
 Value: one of `relevance` `random` `date_added` `views` `favorites`
 
 #### options.nsfw
