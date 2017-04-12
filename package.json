@@ -1,6 +1,6 @@
 {
   "name": "wallhaven-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "API for alpha.wallhaven.cc",
   "repository": {
     "url": "egoist/wallhaven-api",
