@@ -12,8 +12,10 @@ function recrawler(url) {
     })
 }
 
-function hasCategory(cat) {
-  return String(Number(ALL_CATEGORIES.indexOf(cat) > -1))
+function getCategories(categories) {
+  return ALL_CATEGORIES.map(cat => {
+    return String(Number(categories.indexOf(cat) > -1))
+  }).join('')
 }
 
 function getResolution(text) {
@@ -29,7 +31,7 @@ module.exports = class Wallhaven {
     sketchy = false
   } = {}) {
     keyword = encodeURIComponent(keyword)
-    categories = categories.map(cat => hasCategory(cat)).join('')
+    categories = getCategories(categories)
     const purity = `${Number(!nsfw)}${Number(sketchy)}0`
 
     return recrawler(`https://alpha.wallhaven.cc/search?q=${keyword}&categories=${categories}&page=${page}&purity=${purity}&sorting=${sorting}&order=desc`)
@@ -40,7 +42,7 @@ module.exports = class Wallhaven {
           images: []
         }
         $('.thumb-listing-page ul li').each(function () {
-          const id = Number($(this).find('.thumb-anime').attr('data-wallpaper-id'))
+          const id = Number($(this).find('.thumb').attr('data-wallpaper-id'))
           const resolution = getResolution($(this).find('.wall-res').text())
 
           result.images.push({
