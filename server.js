@@ -1,5 +1,6 @@
 const express = require('express')
 const Cache = require('lru-cache')
+const compression = require('compression')
 const Wall = require('./')
 
 const app = express()
@@ -8,6 +9,8 @@ const cache = new Cache({
   max: 5000,
   maxAge: 1000 * 60 * 60 * 24 // 1 day
 })
+
+app.use(compression())
 
 app.get('/', (req, res) => {
   res.end(`

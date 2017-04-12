@@ -29,6 +29,7 @@
     ]
   },
   "devDependencies": {
+    "compression": "^1.6.2",
     "eslint-config-rem": "^3.0.0",
     "express": "^4.15.2",
     "jest-cli": "^18.1.0",
