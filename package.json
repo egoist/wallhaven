@@ -1,0 +1,39 @@
+{
+  "name": "wallhaven-api",
+  "version": "0.0.0",
+  "description": "API for alpha.wallhaven.cc",
+  "repository": {
+    "url": "egoist/wallhaven-api",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test:cov": "jest --coverage && npm run lint",
+    "test": "jest && npm run lint",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "jest-cli": "^18.1.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "extends": "rem",
+    "esnext": true,
+    "envs": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.16.1",
+    "cheerio": "^0.22.0"
+  }
+}
