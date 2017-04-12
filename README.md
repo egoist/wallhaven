@@ -19,9 +19,18 @@ const api = new Wallhaven()
 api.search('attack on titans')
   .then(result => {
     console.log(result)
-    // => { total: 134, images: [] }
+    // => { totalPages: 29, images: [] }
   })
 ```
+
+## Micro-service
+
+A micro-service based on this module: https://wallhaven-api.now.sh
+
+Examples: 
+
+- Search: https://wallhaven-api.now.sh/search?keyword=attack%20on%20titans
+- Details: https://wallhaven-api.now.sh/details/482373
 
 ## API
 

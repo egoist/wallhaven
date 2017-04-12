@@ -13,16 +13,23 @@
   "scripts": {
     "test:cov": "jest --coverage && npm run lint",
     "test": "jest && npm run lint",
-    "lint": "xo"
+    "lint": "xo",
+    "start": "node server.js"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
   "jest": {
     "testEnvironment": "node"
   },
+  "now": {
+    "alias": "wallhaven-api.now.sh",
+    "files": ["index.js", "server.js"]
+  },
   "devDependencies": {
     "eslint-config-rem": "^3.0.0",
+    "express": "^4.15.2",
     "jest-cli": "^18.1.0",
+    "lru-cache": "^4.0.2",
     "xo": "^0.17.1"
   },
   "xo": {

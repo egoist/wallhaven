@@ -32,7 +32,7 @@ module.exports = class Wallhaven {
       .then($ => {
         const result = {
           end: !$('.next').length,
-          total: Number($('.thumb-listing-page-header h2').contents().eq(2).text().replace(/[^\d]/g, '')),
+          totalPages: Number($('.thumb-listing-page-header h2').contents().eq(2).text().replace(/[^\d]/g, '')),
           images: []
         }
         $('.thumb-listing-page ul li').each(function () {
