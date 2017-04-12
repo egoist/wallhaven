@@ -48,6 +48,26 @@ Default: `['general', 'anime', 'people']`
 Type: `Number`<br>
 Default: `1`
 
+#### options.sorting
+
+Type: `string`<br>
+Default: `relevance`
+Value: one of `relevance` `random` `date_added` `views` `favorites`
+
+#### options.nsfw
+
+Type: `boolean`<br>
+Default: `false`
+
+Show NSFW (not safe for work) result.
+
+#### options.sketchy
+
+Type: `boolean`<br>
+Default: `false`
+
+Show sketchy wallpapers only.
+
 ### api.deatils(id)
 
 Get the details of a wallpaper by image id.

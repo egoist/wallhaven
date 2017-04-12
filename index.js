@@ -23,12 +23,16 @@ function getResolution(text) {
 module.exports = class Wallhaven {
   search(keyword = '', {
     categories = ALL_CATEGORIES,
-    page = 1
+    page = 1,
+    sorting = 'relevance',
+    nsfw = false,
+    sketchy = false
   } = {}) {
     keyword = encodeURIComponent(keyword)
     categories = categories.map(cat => hasCategory(cat)).join('')
+    const purity = `${Number(!nsfw)}${Number(sketchy)}0`
 
-    return recrawler(`https://alpha.wallhaven.cc/search?q=${keyword}&categories=${categories}&page=${page}&purity=100&sorting=relevance&order=desc`)
+    return recrawler(`https://alpha.wallhaven.cc/search?q=${keyword}&categories=${categories}&page=${page}&purity=${purity}&sorting=${sorting}&order=desc`)
       .then($ => {
         const result = {
           end: !$('.next').length,
