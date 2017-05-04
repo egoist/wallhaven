@@ -1,6 +1,6 @@
 # wallhaven-api
 
-[![NPM version](https://img.shields.io/npm/v/wallhaven-api.svg?style=flat)](https://npmjs.com/package/wallhaven-api) [![NPM downloads](https://img.shields.io/npm/dm/wallhaven-api.svg?style=flat)](https://npmjs.com/package/wallhaven-api) [![CircleCI](https://circleci.com/gh/egoist/wallhaven-api/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/wallhaven-api/tree/master)  [![codecov](https://codecov.io/gh/egoist/wallhaven-api/branch/master/graph/badge.svg)](https://codecov.io/gh/egoist/wallhaven-api)
+[![NPM version](https://img.shields.io/npm/v/wallhaven-api.svg?style=flat)](https://npmjs.com/package/wallhaven-api) [![NPM downloads](https://img.shields.io/npm/dm/wallhaven-api.svg?style=flat)](https://npmjs.com/package/wallhaven-api) [![CircleCI](https://circleci.com/gh/www-working/wallhaven-api/tree/master.svg?style=shield)](https://circleci.com/gh/www-working/wallhaven-api/tree/master)  [![codecov](https://codecov.io/gh/www-working/wallhaven-api/branch/master/graph/badge.svg)](https://codecov.io/gh/www-working/wallhaven-api)
  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
 ## Install
@@ -90,6 +90,6 @@ Image ID.
 ## Author
 
 **wallhaven-api** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/wallhaven-api/contributors)).
+Authored and maintained by egoist with help from contributors ([list](https://github.com/www-working/wallhaven-api/contributors)).
 
 > [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)
