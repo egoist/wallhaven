@@ -74,6 +74,13 @@ module.exports = class Wallhaven {
 
         const resolution = getResolution($('.showcase-resolution').text())
 
+        const colors = []
+        $('.color').each(function () {
+          colors.push( 
+            $(this).css('background-color')
+          )
+        })
+
         return {
           fullImage: $('#wallpaper').attr('src').replace(/^\/\//, 'https://'),
           tags,
@@ -81,7 +88,8 @@ module.exports = class Wallhaven {
           size,
           views,
           width: resolution[0],
-          height: resolution[1]
+          height: resolution[1],
+          colors
         }
       })
   }
