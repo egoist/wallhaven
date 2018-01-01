@@ -76,7 +76,7 @@ module.exports = class Wallhaven {
 
         const colors = []
         $('.color').each(function () {
-          colors.push( 
+          colors.push(
             $(this).css('background-color')
           )
         })
