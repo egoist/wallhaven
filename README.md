@@ -25,12 +25,13 @@ api.search('attack on titans')
 
 ## Micro-service
 
-A micro-service based on this module: https://wallhaven-api.now.sh
+A micro-service based on this module: https://wallhaven.now.sh
 
 Examples: 
 
-- Search: https://wallhaven-api.now.sh/search?keyword=attack%20on%20titans
-- Details: https://wallhaven-api.now.sh/details/482373
+- Search: https://wallhaven.now.sh/search?keyword=attack%20on%20titans
+- Details: https://wallhaven.now.sh/details/482373
+- Random: https://wallhaven.now.sh/random?keyword=eriri
 
 ## API
 
@@ -92,4 +93,4 @@ Image ID.
 **wallhaven-api** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by egoist with help from contributors ([list](https://github.com/www-working/wallhaven-api/contributors)).
 
-> [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@rem_rin_rin](https://twitter.com/rem_rin_rin)
+> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)

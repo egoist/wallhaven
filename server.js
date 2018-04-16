@@ -90,7 +90,7 @@ app.get('/random', handleError(async (req, res) => {
   const response = await axios({
     method: 'get',
     url: image.fullImage,
-    responseType:'stream'
+    responseType: 'stream'
   })
   const type = /\.png$/.test(image.fullImage) ? 'png' : 'jpeg'
   res.type(type)
