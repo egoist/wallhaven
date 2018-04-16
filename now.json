@@ -1,0 +1,10 @@
+{
+  "name": "wallhaven",
+  "alias": [
+    "wallhaven.now.sh"
+  ],
+  "files": [
+    "index.js",
+    "server.js"
+  ]
+}

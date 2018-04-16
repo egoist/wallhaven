@@ -21,13 +21,6 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "now": {
-    "alias": "wallhaven-api.now.sh",
-    "files": [
-      "index.js",
-      "server.js"
-    ]
-  },
   "devDependencies": {
     "compression": "^1.6.2",
     "eslint-config-rem": "^3.0.0",
