@@ -25,7 +25,7 @@ GET /details/:id
 GET /random
 
 # More
-https://github.com/www-working/wallhaven-api
+https://github.com/moeoverflow/wallhaven
 `)
 })
 
