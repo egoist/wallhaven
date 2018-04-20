@@ -69,7 +69,7 @@ Default: `false`
 
 Show sketchy wallpapers only.
 
-### api.deatils(id)
+### api.details(id)
 
 Get the details of a wallpaper by image id.
 
