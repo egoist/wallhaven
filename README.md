@@ -1,6 +1,6 @@
 # wallhaven
 
-[![NPM version](https://img.shields.io/npm/v/wallhaven.svg?style=flat)](https://npmjs.com/package/wallhaven) [![NPM downloads](https://img.shields.io/npm/dm/wallhaven.svg?style=flat)](https://npmjs.com/package/wallhaven) [![CircleCI](https://circleci.com/gh/moeoverflow/wallhaven/tree/master.svg?style=shield)](https://circleci.com/gh/moeoverflow/wallhaven/tree/master)  [![codecov](https://codecov.io/gh/moeoverflow/wallhaven/branch/master/graph/badge.svg)](https://codecov.io/gh/moeoverflow/wallhaven)
+[![NPM version](https://img.shields.io/npm/v/wallhaven.svg?style=flat)](https://npmjs.com/package/wallhaven) [![NPM downloads](https://img.shields.io/npm/dm/wallhaven.svg?style=flat)](https://npmjs.com/package/wallhaven) [![CircleCI](https://circleci.com/gh/egoist/wallhaven/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/wallhaven/tree/master)  [![codecov](https://codecov.io/gh/egoist/wallhaven/branch/master/graph/badge.svg)](https://codecov.io/gh/egoist/wallhaven)
  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
 ## Install
@@ -90,7 +90,7 @@ Image ID.
 
 ## Author
 
-**wallhaven** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
-Authored and maintained by egoist with help from contributors ([list](https://github.com/moeoverflow/wallhaven/contributors)).
+**wallhaven** © [EGOIST](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/wallhaven/contributors)).
 
-> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
+> [Website](https://egoist.sh) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
