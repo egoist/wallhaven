@@ -8,6 +8,6 @@
     { "src": "server.js", "use": "@now/node-server" }
   ],
   "routes": [
-    { "src": "^/(.*)", "dest": "/server.js"  }
+    { "src": "^/(.*)", "dest": "/server.js" }
   ]
 }
