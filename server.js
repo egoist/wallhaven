@@ -81,11 +81,11 @@ app.get('/random', handleError(async (req, res) => {
     sorting: 'random'
   }))
   const image = await api.details(images[0].id)
-  if (req.query.redirect) {
-    return res.redirect(image.fullImage)
-  }
-  if (req.query.json) {
+  if (req.query.json === '') {
     return res.send(image)
+  }
+  if (req.query.redirect === 'false') {
+    return res.redirect(image.fullImage)
   }
   const response = await axios({
     method: 'get',
