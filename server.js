@@ -84,7 +84,7 @@ app.get('/random', handleError(async (req, res) => {
   if (req.query.json === '') {
     return res.send(image)
   }
-  if (req.query.redirect === 'false') {
+  if (req.query.redirect !== 'false') {
     return res.redirect(image.fullImage)
   }
   const response = await axios({
